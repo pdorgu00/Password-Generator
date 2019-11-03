@@ -1,0 +1,6 @@
+I started my assignment by creating a navbar from Bootstrap. I had to make it take up the whole 12 columns.
+Then I added a jumbotron and a text input area for the password. I created a function for the generate password. 
+Added the characters for the password complexity as well as a for loop to choose password characters.
+Then I made a get element by id so the password would display in the display area. I also added
+a previous password generator section so you can see the old generated passwords. The password can be 
+copied to clipboard and put in the url.
