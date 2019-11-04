@@ -21,3 +21,15 @@ document.getElementById("display").value=password;
 //add password to previous generated passwords section
 document.getElementById("lastNums").innerHTML+=password+"<br/>";
 }
+
+//function to copy password
+function copyPassword(){
+
+
+
+    document.getElementById('display').select();
+
+    document.execCommand('copy');
+
+    alert("Password copied to clipboard!");
+}
